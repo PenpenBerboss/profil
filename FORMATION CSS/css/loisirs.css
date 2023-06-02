@@ -1,0 +1,58 @@
+.vert{
+	border-top: 5px solid #5f6;
+background-color: rgba(70, 240, 80, 0.15);
+}
+
+.bleu{
+	border-top: 5px solid #29c;
+background-color: rgba(19, 13, 199, 0.15);
+}
+.jaune{
+	border-top: 5px solid #f3e241;
+background-color: rgba(218, 218, 21, 0.15);
+}
+.violet{
+	border-top: 5px solid #ff00ff;
+background-color: rgba(225, 12, 197, 0.15);
+}
+
+.vert .rightexpe img{
+	width: 55%;
+	height: 55%;
+	border-radius: 10px;
+	position: relative;
+	bottom: 40px;
+	left: 187px;
+}
+
+.vert .leftexpe{
+	position: relative;
+	top: 58px;
+	left: 15px;
+}
+
+.jaune .rightexpe img {
+	width: 55%;
+	height: 55%;
+	border-radius: 10px;
+	position: relative;
+	bottom: 39px;
+	left: 199px;
+}
+
+.jaune .leftexpe {
+	position: relative;
+	top: 53px;
+	left: 11px;
+}
+
+.bleu .leftexpe{
+	position: relative;
+	left: 186px;
+	top: 54px;
+}
+.violet .leftexpe {
+	position: relative;
+	left: 203px;
+	top: 68px;
+}

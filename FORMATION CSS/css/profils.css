@@ -1,0 +1,187 @@
+	body{
+	font-family: 'Century Gothic', Calibri, Serif;
+	font-size: 17px;
+	margin: 0px;
+	padding: 0px;
+	word-spacing: 2px;
+}
+ h1.h {
+ 	position: relative;
+ 	top: 20px;
+ }
+	h1{
+	font-size: 40px;
+	text-align: center;
+}
+
+	header{
+	height: 100px;
+margin-top: -27px;
+}
+
+ 	footer{
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #AAA;
+ }
+
+ 	nav{
+	width: 100%;
+	background-color:#424558;
+ }
+
+ 	nav ul{
+	margin: 0px;
+	padding: 0px;
+ }
+
+ 	nav li{
+	list-style-type: none;
+	float: left;
+ }
+  nav a{
+	margin: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 15px;
+  }
+
+.table{
+	display: table;
+	margin: 0px auto;
+}
+
+.prof:hover, .présentation{
+	border-top: 5px solid #4c8;
+	background-color: rgba(64, 200, 130, 0.15);
+}
+.exp:hover, .Parcours{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.cont:hover, .Compétences{
+	border-top: 5px solid #0070BB;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+.lois:hover,.Recommandations{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+padding: 15px 30px 20px 30px;
+}
+
+section{
+	width: 100%;
+	min-height: 300px;
+	padding-bottom: 0px;
+
+}
+
+
+
+img{
+	width: 55%;
+	height: 55%;
+	border-radius: 10px;
+	position: relative;
+	bottom: 39px;
+	left: 10px;
+}
+.right .de{
+	position: relative;
+	left: 12%;
+	font-size: 18px;
+}
+.img1{
+	width: 80px;
+	height: 80px;
+	top: 1px;
+}
+.img2{
+	width: 80px;
+	height: 80px;
+	top: 1px;
+}
+.sec{
+	margin: 0px 10%;
+}
+.sec {
+	margin: 0px 10%;
+	position: relative;
+	left: 64px;
+}
+.left{
+	float: left;
+	width: 30%;
+}
+.right{
+	float: left;
+	width: 70%;
+}
+.cleft,.cright,.sousleft,.sousright{
+	width: 50%;
+	float: left;
+}
+.sec::after, .expe::after, .reco::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.leftexpe{
+	width: 45%;
+	float: left;
+}
+.rightexpe{
+	width: 50%;
+	float: left;
+	margin-left: 5px;
+}
+
+.leftexp img{
+	width: 100%;
+	max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 780px){
+	header{
+		height: 50px;
+	}
+h1{
+	font-size: 28px;
+	margin: 20px 0px 0px 0px;
+}
+nav li a{
+	font-size: 12px;
+	padding: 10px;
+}
+nav li:hover a{
+	padding: 20px 0px 0px 0px;
+}
+}
